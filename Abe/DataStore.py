@@ -6,12 +6,12 @@
 # it under the terms of the GNU Affero General Public License as
 # published by the Free Software Foundation, either version 3 of the
 # License, or (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful, but
 # WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 # Affero General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU Affero General Public
 # License along with this program.  If not, see
 # <http://www.gnu.org/licenses/agpl.html>.
@@ -78,8 +78,7 @@ CHAIN_CONFIG = [
      "code3":"WDC", "address_version":"\x49", "magic":"\xfb\xc0\xb6\xdb"},
     {"chain":"NovaCoin"},
     {"chain":"CryptoCash"},
-    {"chain":"Anoncoin", "policy":"Sha256Chain",
-     "code3":"ANC", "address_version":"\x17", "magic":"\xFA\xCA\xBA\xDA" },
+    {"chain":"PNC", "address_version":"\x00", "magic":"\x01\xfe\xfe\x04" },
     {"chain":"Hirocoin"},
     {"chain":"Bitleu"},
     {"chain":"Maxcoin"},
