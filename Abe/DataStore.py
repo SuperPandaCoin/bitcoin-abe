@@ -63,7 +63,10 @@ CONFIG_DEFAULTS = {
 WORK_BITS = 304  # XXX more than necessary.
 
 CHAIN_CONFIG = [
-    {"chain":"PandaCoin", "address_version":"\x00", "magic":"\x01\xfe\xfe\x04" },
+    {"chain":"Bitcoin"},
+    {"chain":"PandaCoin", "code3":"PCN","address_version":"\x00", "magic":"\x01\xfe\xfe\x04" },
+    #{"chain":"",
+    # "code3":"", "address_version":"\x", "magic":""},
     ]
 
 NULL_PUBKEY_HASH = "\0" * Chain.PUBKEY_HASH_LENGTH
